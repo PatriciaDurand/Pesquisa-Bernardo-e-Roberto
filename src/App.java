@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 
 public class App {
 
@@ -15,14 +13,13 @@ public class App {
 		System.out.println("Camaleão");
 		System.out.println("Urso");
 		System.out.println("Macaco");
-		
-		System.out.println("Digite o animal em que você pensou");
-		Scanner sc = new Scanner(System.in);
-		String animal = sc.next();
-		
+		System.out.println("");
 		System.out.println("Agora eu vou tentar adivinhar");
-				
-
+		System.out.println("");
+		
+		Adivinhador adivinha = new Adivinhador();
+		adivinha.qualAnimalElePensou();
+		
 	}
 
 }
