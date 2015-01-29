@@ -14,7 +14,7 @@ public class App {
 		System.out.println("Urso");
 		System.out.println("Macaco");
 		System.out.println("");
-		System.out.println("Agora eu vou tentar adivinhar");
+		System.out.println("Agora eu vou tentar adivinhar o animal que você pensou.");
 		System.out.println("");
 		
 		Adivinhador adivinha = new Adivinhador();

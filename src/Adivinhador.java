@@ -16,13 +16,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: qualAnimalVoador();			
-			break;
-		case 2: qualAnimalQueNaoEhVoador();
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: qualAnimalVoador();			
+				break;
+			case 2: qualAnimalQueNaoEhVoador();
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalElePensou();
 		}
 	}
 
@@ -32,13 +37,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: qualAnimalVoadorEComPenas();			
-			break;
-		case 2: System.out.println("O animal que você está pensando é o Pavão.");
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: qualAnimalVoadorEComPenas();			
+				break;
+			case 2: System.out.println("O animal que você está pensando é o Pavão.");
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalVoador();
 		}
 	}
 
@@ -48,13 +58,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: System.out.println("O animal que você pensou é a Andorinha.");			
-			break;
-		case 2: System.out.println("O animal que você pensou é o Papagaio.");		
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: System.out.println("O animal que você pensou é a Andorinha.");			
+				break;
+			case 2: System.out.println("O animal que você pensou é o Papagaio.");		
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalVoadorEComPenas();
 		}
 	}
 
@@ -64,13 +79,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: qualAnimalAguatico();			
-			break;
-		case 2: qualAnimalQueNaoEhVoadorENemAguatico();
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: qualAnimalAguatico();			
+				break;
+			case 2: qualAnimalQueNaoEhVoadorENemAguatico();
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalQueNaoEhVoador();
 		}
 	}
 
@@ -80,13 +100,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: System.out.println("O animal que você está pensando é a Baleia.");			
-			break;
-		case 2: System.out.println("O animal que você está pensando é o Peixe");		
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: System.out.println("O animal que você está pensando é a Baleia.");			
+				break;
+			case 2: System.out.println("O animal que você está pensando é o Peixe");		
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalAguatico();
 		}
 	}
 
@@ -96,13 +121,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: qualAnimalRastejador();			
-			break;
-		case 2: qualAnimalQueNaoEhVoadorENemAguaticoNemRastejador();
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: qualAnimalRastejador();			
+				break;
+			case 2: qualAnimalQueNaoEhVoadorENemAguaticoNemRastejador();
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalQueNaoEhVoadorENemAguatico();
 		}
 	}
 
@@ -112,13 +142,18 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: System.out.println("O animal que você está pensando é o Lagarto.");		
-			break;
-		case 2: System.out.println("O animal que você está pensando é o Camaleão.");		
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: System.out.println("O animal que você está pensando é o Lagarto.");		
+				break;
+			case 2: System.out.println("O animal que você está pensando é o Camaleão.");		
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalRastejador();
 		}
 		
 	}
@@ -129,15 +164,19 @@ public class Adivinhador {
 		
 		resposta = sc.nextInt();
 		
-		switch (resposta) {
-		case 1: System.out.println("O animal que você está pensando é o Urso.");		
-			break;
-		case 2: System.out.println("O animal que você está pensando é o Macaco.");		
-			break;
-		default:
-			break;
+		if (resposta == 1 || resposta == 2){
+			switch (resposta) {
+			case 1: System.out.println("O animal que você está pensando é o Urso.");		
+				break;
+			case 2: System.out.println("O animal que você está pensando é o Macaco.");		
+				break;
+			default:
+				break;
+			}
+		} else {
+			System.out.println("Você deve digitar 1 para sim ou 2 para não.");
+			qualAnimalQueNaoEhVoadorENemAguaticoNemRastejador();
 		}
-		
 	}	
 	
 }
